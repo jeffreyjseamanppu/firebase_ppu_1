@@ -2,8 +2,8 @@
   "hosting": {
     "public": "public",
     "rewrites": [{
-      "source": "/timestamp",
+      "source": "**",
       "function": "app"
-    }
+    }]
   }
 }
